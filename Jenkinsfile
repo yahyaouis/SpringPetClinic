@@ -3,12 +3,12 @@ pipeline{
         label ''
     }
     tools{
-        maven 'M3'
+        maven 'mavenpi'
     }
     stages{
         stage('Checkout'){
             steps{
-                git branch: 'master', url: 'https://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@github.com/karoumbr/SpringPetClinic.git'
+                git branch: 'master', url: 'https://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@github.com/yahyaouis/SpringPetClinic.git'
             }
         }
         stage('Build'){
